@@ -144,8 +144,12 @@ td {                   /* セル幅 */
 .container_l h4 {
     position: absolute;
     top: 80%;
-    left: 55%;
-    transform: translate(-80%, -55%);
+    /*left: 55%;
+    transform: translate(-80%, -55%); -------- ローカル確認時の設定 */
+    /*--- Upload後に調整 -------------------------------------- ---*/
+    left: 60%;
+    transform: translate(-80%, -60%);
+    /*------------------------------------------------------------*/
     color: #FFFFFF;
     font-size: 2rem;
 }
