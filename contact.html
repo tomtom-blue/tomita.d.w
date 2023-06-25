@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tomita Design Workshop</title>
+        <meta name="description" content="「費用をかけずにもっと広範囲に広告を出して効率よく集客したい」
+        そんなあなたをWebデザインを通じてサポートするWorkshop">
+    
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"><!-- リセットCSS -->
+        <!-- Google Font用のCSS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;500;900&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+        <!-- 装飾用のCSS -->
+        <link rel="stylesheet" href="css/stlye.css">
+        <!-- ファビコンの読み込み -->
+        <link rel="icon" type="image/png" href="images/favicon.ico">
+    </head>
+
+<body>
+    <div id="contact" class="top-bg">
+    <header class="page-header wrapper">
+        <h1><a href="works.html"><img class="logo" src="images/logo.png" alt="Tomita Design Workshop"></a></h1>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="top">
+        <img src="images/top.jpg" alt="top.jpg">
+        <h1>
+            <span>C</span>ontact
+        </h1>
+    </div><!-- /.top -->
+<!-------------------------------------------------------------------------------------------->
+    <div class="contents">
+        <form action="#">
+            <div class="form">
+                <div> <!-- Name -->
+                    <label for="name">Name<span>*</span></label>
+                    <input type="text" id="name" name="your-name">
+                </div>
+                <div> <!-- E-mail -->
+                    <label for="email">E-mail<span>*</span></label>
+                    <input type="email" id="email" name="your-email">
+                </div>
+                <div> <!-- Tel -->
+                    <label for="tel">Tel<span>*</span></label>
+                    <input type="text" id="tel" name="your-tel">
+                </div>
+                <div> <!-- Title -->
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="your-title">
+                </div>
+                <div> <!-- Massage -->
+                    <label for="message">Message</label>
+                    <textarea name="your-message" id="message"></textarea>
+                </div>
+                <!-- 送信ボタン -->
+                <div class="area">
+                    <input type="submit" class="button" value="送信する">
+                </div>
+            </div>
+        </form>
+    </div><!--/.contents -->
+    <footer>
+        <div class="bottom">
+            <img src="images/footer.jpg" alt="footer.jpg">
+            <p><small>&copy; 2023 Tomita Design Workshop</small></p>
+        </div><!--/.bottom -->
+    </footer>
+</body>
+</html>
