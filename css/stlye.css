@@ -144,8 +144,8 @@ td {                   /* セル幅 */
 .container_l h4 {
     position: absolute;
     top: 80%;
-    left: 50%;
-    transform: translate(-80%, -50%);
+    left: 55%;
+    transform: translate(-80%, -55%);
     color: #FFFFFF;
     font-size: 2rem;
 }
