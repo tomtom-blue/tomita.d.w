@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+/* 共通部分
+----------------------------------*/
+html {
+    font-size: 100%;
+}
+body {
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Playfair Display', serif;
+    /* font-family: "Yu Gothic Medium", "遊ゴシック Medium" YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif; */
+    line-height: 1.7; 
+    color: #666666;
+}
+a{
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+span {
+    color: #EE0A32;
+}
+
+/* HEADER */
+.logo {
+    width: 210px;
+    margin-top: 14px;
+} 
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a {
+    color: #666666;
+}
+.main-nav a:hover {
+    color: #EE0A32;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+.top img {
+    position: relative;
+    height: 400px;
+    margin-bottom: 96px;
+}
+.top h1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+}
+.top h2 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    margin: 0;
+    padding: 0;
+    font-size: 70px;
+}
+.top h4 {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+/* お問合せボタン */
+.area {
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+.button {
+    font-size: 1.375rem;
+    background: #0bd;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+.botton {
+    display: inline-block;
+    width: 277px;
+    height: 52px;
+    vertical-align: middle;
+}
+.button:hover {        /* ボタンの上にカーソルが重なった時 */
+    background: #0090aa;
+}
+
+/* FOOTER */
+.bottom {
+    position: relative;
+}
+.bottom img {
+    height: 100px;
+}
+.bottom p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #666666;
+    font-size: 1.3rem;
+}
+
+/* HOME
+----------------------------------*/
+td {                   /* セル幅 */
+    width: 50%;
+}
+.container_c {
+    text-align: center;
+    position: relative; 
+}    
+.container_c h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+.container_l {
+    text-align: center;
+    position: relative; 
+}    
+.container_l h4 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-80%, -50%);
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+p{                      /* 文字の配置 */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.worktime {
+    padding-left: 30px;
+}
+ul {                   /* リスト内の箇条書き */
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Profile
+----------------------------------*/
+td {                   /* セル幅 */
+    width: 50%;
+}
+.container_c {
+    text-align: center;
+    position: relative; 
+}    
+.container_c h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+.catch{                 /* “人との出会いを大切に” */
+    padding-left: 20px;
+}
+p{                      /* 文字の配置 */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Works
+----------------------------------*/
+table {
+    width: 80%;
+    margin: auto;
+}
+td {                   /* セル幅 */
+    width: 50%;
+}
+.photo {
+    text-align: center;
+}
+
+p{                      /* 文字の配置 */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Contact
+----------------------------------*/
+.form {
+    max-width: 600px;   /* 最大表示の80% */
+    margin: 0 auto;
+}
+form div {
+    margin-bottom: 14px;
+}
+label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 1px #666666 solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    max-width: 612px;
+}
+textarea {
+    width: 100%;
+    max-width: 612px;
+    height: 8rem;
+}
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
