@@ -48,18 +48,25 @@ span {
     justify-content: space-between;
 }
 .wrapper {
-    max-width: 1100px;
+    /* max-width: 1100px; */
+    max-width: 1920px;
     margin: 0 auto;
     padding: 0 4%;
 }
 .top img {
     position: relative;
     height: 400px;
+    /* -------------------- Add <S> --- */
+    width: 1920px;
+    /* -------------------- Add <E> --- */
     margin-bottom: 96px;
 }
 .top h1 {
     position: absolute;
-    top: 30%;
+      /* -------------------- Mod <S> --- */
+    /*  top: 30%; */
+    top: 20%;
+     /* --------------------- Mod <E> --- */
     left: 10%;
     margin: 0;
     padding: 0;
@@ -67,7 +74,10 @@ span {
 }
 .top h2 {
     position: absolute;
-    top: 30%;
+     /* -------------------- Mod <S> --- */
+    /* top: 30%; */
+    top: 20%;
+     /* --------------------- Mod <E> --- */
     left: 10%;
     margin: 0;
     padding: 0;
@@ -75,7 +85,10 @@ span {
 }
 .top h4 {
     position: absolute;
-    top: 70%;
+    /* -------------------- Mod <S> --- */
+    /* top: 70%; */
+    top: 40%;
+    /* --------------------- Mod <E> --- */
     right: 10%;
     margin: 0;
     padding: 0;
@@ -110,6 +123,9 @@ span {
 }
 .bottom img {
     height: 100px;
+    /* -------------------- Add <S> --- */
+    width: 1920px;
+    /* -------------------- Add <E> --- */
 }
 .bottom p {
     position: absolute;
@@ -144,12 +160,12 @@ td {                   /* セル幅 */
 .container_l h4 {
     position: absolute;
     top: 80%;
-    /*left: 55%;
-    transform: translate(-80%, -55%); -------- ローカル確認時の設定 */
-    /*--- Upload後に調整 -------------------------------------- ---*/
-    left: 70%;
-    transform: translate(-80%, 70%);
-    /*------------------------------------------------------------*/
+    left: 55%;
+    transform: translate(-80%, -55%); 
+    /* ----------------------------------- MOD <S> --- */
+    /* left: 70%;
+    /* transform: translate(-80%, -70%);
+    /* ----------------------------------- MOD <E> --- */
     color: #FFFFFF;
     font-size: 2rem;
 }
